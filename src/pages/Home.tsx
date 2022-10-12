@@ -42,7 +42,7 @@ export default function Home() {
               <TableCell sx={{paddingRight: 15}} >
                 <h3>Name</h3>
               </TableCell>
-              <TableCell align="right" sx={{paddingRight: 15}} >
+              <TableCell align="right" sx={{paddingRight: 25}} >
                 <h3>Languages</h3>
               </TableCell>
               <TableCell align="right" sx={{paddingRight: 15}}>
@@ -69,7 +69,7 @@ export default function Home() {
                 <TableCell component="th" scope="row" >
                   {country.name.common}
                 </TableCell>
-                <TableCell align="right"  sx={{paddingRight: 15}}>
+                <TableCell align="right"  sx={{paddingRight: 24}}>
                   {Object.values(country.languages).map((lang) => lang)}
                 </TableCell>
                 <TableCell align="right" sx={{paddingRight: 15 }}>{country.population}</TableCell>
